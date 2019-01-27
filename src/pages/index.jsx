@@ -6,6 +6,15 @@ import Post from '../components/Post'
 import Sidebar from '../components/Sidebar'
 
 class IndexRoute extends React.Component {
+  componentDidMount() {
+    // eslint-disable-next-line no-underscore-dangle
+    // eslint-disable-next-line no-undef
+    if (window) {
+      // eslint-disable-next-line no-undef
+      window.location.replace('/talks/')
+    }
+  }
+
   render() {
     const items = []
     const { title, subtitle } = this.props.data.site.siteMetadata
@@ -47,11 +56,8 @@ export const pageQuery = graphql`
         author {
           name
           email
-          telegram
           twitter
           github
-          rss
-          vk
         }
       }
     }

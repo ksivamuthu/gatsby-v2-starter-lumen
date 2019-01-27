@@ -3,34 +3,31 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    url: 'https://ksivamuthu.netlify.com',
+    title: 'Sivamuthu Kumar',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Focusing on goals 🎯 | Dad of princess | 💕@Depikarajendran | Speaker | Architect | God Driven 😇 ',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
-      {
-        label: 'Articles',
-        path: '/',
-      },
       {
         label: 'About me',
         path: '/about/',
       },
       {
-        label: 'Contact me',
-        path: '/contact/',
+        label: 'Talks',
+        path: '/talks/',
+      },
+      {
+        label: 'Videos',
+        path: '/videos/',
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Sivamuthu Kumar',
+      email: 'sivamuthukumar07@gmail.com',
+      twitter: 'ksivamuthu',
+      github: 'ksivamuthu',
     },
   },
   plugins: [
